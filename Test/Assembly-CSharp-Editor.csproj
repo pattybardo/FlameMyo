@@ -48,8 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
      <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
+     <None Include="Assets\PB_Spider\readme.txt" />
+     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
      <None Include="Assets\PyroParticles\Readme.txt" />
      <None Include="Assets\Myo\README-MyoUnity.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/patrickbardo/Desktop/FlameMyo/Test/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
