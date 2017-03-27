@@ -45,7 +45,6 @@ public class JointOrientation : MonoBehaviour
 	static public int score = 0;
 
 
-
 	void playGame() {
 		endGameHappened = false;
 		spawnStart = new Vector3 (10.0f, 0.348f, 40.26f);
@@ -59,8 +58,8 @@ public class JointOrientation : MonoBehaviour
 		endGameHappened = true;
 	}
 
-	//public Transform projectile;
 
+	//Instantiate the fireball with a specific orientation so when it is launched it flies in that direction
 	void throwFireball(){
 		Destroy (GameObject.Find("newSphere"));
 		GameObject shotSphere = Instantiate(projectileSphere, GameObject.Find ("SpawnSphere").transform.position, GameObject.Find ("Joint").transform.rotation);
