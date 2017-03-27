@@ -18,11 +18,11 @@ public class SpawningScript : MonoBehaviour {
 		}
 
 		if (JointOrientation.score == 2000) {
-			spawnRate = 1.5;
+			spawnRate = 3.5;
 		} else if (JointOrientation.score == 4000){
-			spawnRate = 1;
+			spawnRate = 2.5;
 		} else if (JointOrientation.score == 6000){
-			spawnRate = 5;
+			spawnRate = 1;
 		}
 	}    
 }
